@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "flowagent": {
+      "command": "node",
+      "args": ["build/index.js"],
+      "env": {
+        "POWER_AUTOMATE_ACCESS_TOKEN": "${POWER_AUTOMATE_ACCESS_TOKEN}",
+        "POWER_AUTOMATE_TENANT_ID": "${POWER_AUTOMATE_TENANT_ID}",
+        "POWER_AUTOMATE_CLIENT_ID": "${POWER_AUTOMATE_CLIENT_ID}",
+        "POWER_AUTOMATE_CLIENT_SECRET": "${POWER_AUTOMATE_CLIENT_SECRET}",
+        "POWER_AUTOMATE_ENVIRONMENT_ID": "${POWER_AUTOMATE_ENVIRONMENT_ID}"
+      }
+    }
+  }
+}
