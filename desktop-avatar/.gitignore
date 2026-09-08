@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+orchestrator.db
+orchestrator_run.log
+worktrees/
+repo/
+
+# widget_py (PySide6, pure Python)
+widget_py/dist/
+widget_py/build/
+widget_py/__pycache__/
