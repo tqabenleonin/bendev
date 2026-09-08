@@ -5,7 +5,7 @@ that idles with a gentle wiggle, loops through a pose group's 3 art
 variants (crossfading between each, on a randomized pace) for a lively,
 breathing feel, jumps to a different pose group on a random timer (same
 crossfade, always waiting for the current loop to finish first so it
-never cuts a transition short), falls asleep (pose 8) after 30s with no
+never cuts a transition short), falls asleep (pose 8) after 20s with no
 mouse/keyboard input and stays there until input resumes, and blinks on
 the poses whose eyes have been calibrated for it.
 """
@@ -92,7 +92,7 @@ GROUP_SWAP_MAX_MS = 7000
 SLEEP_GROUP = 8
 NORMAL_GROUPS = tuple(g for g in range(1, 9) if g != SLEEP_GROUP)
 IDLE_POLL_MS = 1000
-IDLE_THRESHOLD_MS = 30_000
+IDLE_THRESHOLD_MS = 20_000
 # Fit-to-aspect within 100% of the screen (never distorted/stretched).
 # 150% bigger was tried and rejected — the portrait art vs. landscape
 # screen mismatch meant it overshot the screen edges top/bottom on any
